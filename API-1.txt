@@ -1,0 +1,27 @@
+API
+----
+1.Diffrence between Authontication Aithorizaion
+===============================================
+Authentication: Refers to proving correct identity
+Authorization: Refers to allowing a certain action
+1.No Auth
+2.Bearer Token
+3.Basic Auth
+4.Digest Auth
+5.0Auth1.0
+6.0Auth2.0
+-------------------------------------------------------------
+Diffrent types of Header
+===========================
+how to validate first name and last name
+-------------------------------------------
+test["verify first_name"]=response.data.first_Name=="Anil"
+test["Verify Last_name"]=response.data.last_name=="kumar"
+==============================================
+check status code
+=================
+test["check status code"]=responseCode.Code==200;
+test["Check status in the response"]=responseBody.has("Sucess")
+=================================
+some times common data multiple requst then i am going to use postman variable
+-----------------------------------------------------------------------------
